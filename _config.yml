@@ -1,6 +1,6 @@
 # Site settings
-title: G. Bergeret
-description: Jekyll Theme Minimal Resume
+title: G. BERGERET
+description: Geoffrey Bergeret, Freelance Cloud/DevOps/Infrastructure/Network Engineer
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://www.gbergeret.com"
 
@@ -15,7 +15,7 @@ author:
     working in start up environments.
 
     I started to work as a consultant to share my experience and help smaller
-    businesses to improve their Cloud Infrastructure until they are ready to grow
+    businesses improve their Cloud Infrastructure until they are ready to grow
     their team.
   email: contact@gbergeret.com
   # skype: geoffrey.bergeret
