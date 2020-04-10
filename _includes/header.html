@@ -11,6 +11,9 @@
         {% if site.author.phone %}
         <a aria-label="Call" href="tel:{{ site.author.phone }}"><i class="icon fa fa-phone" aria-hidden="true"></i></a>
         {% endif %}
+        {% if site.author.website %}
+        <a aria-label="My Website" target="_blank" href="{{ site.author.website }}"><i class="icon fa fa-globe" aria-hidden="true"></i></a>
+        {% endif %}
         {% if site.author.twitter %}
         <a aria-label="My Twitter" target="_blank" href="https://twitter.com/{{ site.author.twitter }}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
         {% endif %}
@@ -25,7 +28,8 @@
         {% endif %}
       </div>
       <div class="header-links">
-        <a class="link" target="_blank" href="https://www.gbergeret.org">About Me</a>
+        <!-- <a class="link" target="_blank" href="{{ site.author.website }}">About Me</a> -->
+        <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
       </div>
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
